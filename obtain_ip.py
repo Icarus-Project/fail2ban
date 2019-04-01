@@ -1,7 +1,8 @@
 import requests
 
 def obtain(ip):
-	json_response = requests.get("http://10.159.25.85:8080/json/"+ip).json()
+	SERVER_IP_REPUTATION=""
+	json_response = requests.get(SERVER_IP_REPUTATION+ip).json()
 	for i in json_response.keys():
 		if json_response[i] == '':
 			json_response[i] = "NULL"
