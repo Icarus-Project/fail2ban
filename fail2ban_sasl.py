@@ -54,7 +54,8 @@ def populate_db(ip,mta):
 
 
 def run_fail2ban():
-	log = open("/var/log/zimbra.log", "r", encoding="utf-8")
+	#Inserire Log
+	log = open("", "r", encoding="utf-8")
 	while log.closed == False:
 		for line in log :
 			if (pattern.search(line)) != None:
