@@ -13,4 +13,5 @@ Lo scritp è pensato per aggiornare un MySql che in questo caso è in locale sul
 E' necessario inserire il puntamento al posto del localhost ("127.0.0.1")
 
 Sul DB è presente un database "fail2ban", valorizzato nel seguente modo:
- Reputation | Utente                                      | IP            | Tentativi | DATA             | Region | FE
+
+Reputation | Utente                                      | IP            | Tentativi | DATA             | Region | FE
